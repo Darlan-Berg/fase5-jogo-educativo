@@ -53,4 +53,4 @@ func start_game_scene():
 	if Global.fase_em_execucao == 5:
 		get_tree().change_scene_to_file("res://fases/fase_5.tscn")
 	else:
-		get_tree().change_scene_to_file("res://cenas/mundo.tscn")  # Troque para a cena da fase do jogo
+		get_tree().change_scene_to_file("res://cenas/hud.tscn")  # Troque para a cena da fase do jogo

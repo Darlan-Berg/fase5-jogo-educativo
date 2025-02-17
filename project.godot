@@ -26,15 +26,10 @@ MusicaDeFundo="*res://cenas/musica_de_fundo.tscn"
 
 [dialogic]
 
-directories/dch_directory={
-"seringueiro": "res://npc/seringueiro.dch"
-}
+directories/dch_directory={}
 directories/dtl_directory={
 "foto": "res://foto.dtl",
-"foto_chico_mendes": "res://foto_chico_mendes.dtl",
-"placa1": "res://placa1.dtl",
-"timeline": "res://timeline.dtl",
-"timeline2": "res://timeline2.dtl"
+"foto_chico_mendes": "res://foto_chico_mendes.dtl"
 }
 layout/style_list=["res://npc/estilo_caixa_dialogo.tres"]
 layout/default_style="res://npc/estilo_caixa_dialogo.tres"

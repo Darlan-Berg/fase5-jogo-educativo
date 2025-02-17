@@ -5,8 +5,7 @@ extends Node2D
 @onready var painel: PanelContainer = $painel
 @onready var label_painel: Label = $painel/MarginContainer/Label
 
-func _ready() -> void:
-	
+func _ready() -> void:	
 	# limitar a camera para que o background apareca da forma correta
 	camera_jogador.limit_top = 4
 	

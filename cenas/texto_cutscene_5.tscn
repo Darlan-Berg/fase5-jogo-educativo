@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://cf08cof0fr3sb"]
+[gd_scene load_steps=3 format=3 uid="uid://dyqrj07pqgqoo"]
 
 [ext_resource type="Script" path="res://scripts/texto_cutscene_5.gd" id="1_vu2yt"]
 [ext_resource type="PackedScene" uid="uid://bpd1tbp3rvtrp" path="res://cenas/quadro.tscn" id="2_i0vsu"]

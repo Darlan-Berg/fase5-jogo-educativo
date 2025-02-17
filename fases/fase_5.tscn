@@ -2148,16 +2148,16 @@ text = "Minigames concluídos: 3/3
 Acesso liberado!
 Clique \"enter\" para entrar"
 
-[connection signal="body_entered" from="obstaculos/espinhos1" to="jogador" method="_on_espinhos_body_entered"]
 [connection signal="body_entered" from="obstaculos/espinhos1" to="jogador" method="_on_espinhos_1_body_entered"]
-[connection signal="body_entered" from="obstaculos/espinhos2" to="jogador" method="_on_espinhos_body_entered"]
+[connection signal="body_entered" from="obstaculos/espinhos1" to="jogador" method="_on_espinhos_body_entered"]
 [connection signal="body_entered" from="obstaculos/espinhos2" to="jogador" method="_on_espinhos_1_body_entered"]
-[connection signal="body_entered" from="obstaculos/espinhos3" to="jogador" method="_on_espinhos_body_entered"]
+[connection signal="body_entered" from="obstaculos/espinhos2" to="jogador" method="_on_espinhos_body_entered"]
 [connection signal="body_entered" from="obstaculos/espinhos3" to="jogador" method="_on_espinhos_1_body_entered"]
-[connection signal="body_entered" from="obstaculos/espinhos4" to="jogador" method="_on_espinhos_body_entered"]
+[connection signal="body_entered" from="obstaculos/espinhos3" to="jogador" method="_on_espinhos_body_entered"]
 [connection signal="body_entered" from="obstaculos/espinhos4" to="jogador" method="_on_espinhos_1_body_entered"]
-[connection signal="body_entered" from="obstaculos/espinhos5" to="jogador" method="_on_espinhos_body_entered"]
+[connection signal="body_entered" from="obstaculos/espinhos4" to="jogador" method="_on_espinhos_body_entered"]
 [connection signal="body_entered" from="obstaculos/espinhos5" to="jogador" method="_on_espinhos_1_body_entered"]
+[connection signal="body_entered" from="obstaculos/espinhos5" to="jogador" method="_on_espinhos_body_entered"]
 [connection signal="body_entered" from="acionadores/acionador_minigame_1" to="acionadores/acionador_minigame_1" method="_on_body_entered"]
 [connection signal="body_exited" from="acionadores/acionador_minigame_1" to="acionadores/acionador_minigame_1" method="_on_body_exited"]
 [connection signal="body_entered" from="acionadores/acionador_minigame_2" to="acionadores/acionador_minigame_2" method="_on_body_entered"]
